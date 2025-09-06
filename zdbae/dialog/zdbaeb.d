@@ -249,14 +249,14 @@ IF ~InParty("ZDBAE")
     !StateCheck("ZDBAE", CD_STATE_NOTVALID)
     Global("ZDBAEKeldorn1","GLOBAL",0)~
 THEN BKELDOR ZDBAEKeldorn1
-@10124 /* Baeloth, we have become friends, so you don't have to follow me any further. This isn't your fight. */ /* You travel alongside a paladin without fear of retribution or judgment? */
+@10221 /* You travel alongside a paladin without fear of retribution or judgment? */
 DO ~SetGlobal("ZDBAEKeldorn1","GLOBAL",1)~
-== ZDBAEB @10125 /* There's a chance we won't survive. Turn tail and flee if you're too cowardly to see this battle through. */ /* Is there some scintillating reason why you should choose to smite me? */
-== BKELDOR @10126 /* We're nearing the end. I have to know that you're ready. There's no turning back. */ /* Having heard a little of your sordid past, is there a reason why I should not? */
-== ZDBAEB @10127 /* I was preparing a particularly scorching fireball for these simpering elves. How they ever forced my kin beneath the ground is beyond comprehension. */ /* I am not evil! I merely *detect* that way. */
-== BKELDOR @10128 /* But yes, yes, I hear you. I have resolved to remain. The spotlight beckons and I shan't miss my cue! */ /* And a difficult upbringing oft leads to making ill-informed choices. I accede to your point, Baeloth, but heed my warning. */
-== BKELDOR @10129 /* Obviously, this was going to happen. Our triumph was assured with my superior sorcerous skills. ...Ah! What is this strange, nay sinister, sensation? */ /* Tread carefully, and avoid further harming others with your actions, lest your antics summon true consequences. */
-== ZDBAEB @10130 /* Consequences? Not on my coarse conscience! Oh no. */
+== ZDBAEB @10222 /* Is there some scintillating reason why you should choose to smite me? */
+== BKELDOR @10223 /* Having heard a little of your sordid past, is there a reason why I should not? */
+== ZDBAEB @10224 /* I am not evil! I merely *detect* that way. */
+== BKELDOR @10225 /* And a difficult upbringing oft leads to making ill-informed choices. I accede to your point, Baeloth, but heed my warning. */
+== BKELDOR @10226 /* Tread carefully, and avoid further harming others with your actions, lest your antics summon true consequences. */
+== ZDBAEB @10227 /* Consequences? Not on my coarse conscience! Oh no. */
 EXIT
 
 // Korgan 1
@@ -269,12 +269,12 @@ IF ~InParty("ZDBAE")
     !StateCheck("ZDBAE", CD_STATE_NOTVALID)
     Global("ZDBAEKorgan1","GLOBAL",0)~
 THEN ZDBAE ZDBAEKorgan1
-@10131 /* Have you ever considered a career of chaos and carnage in my arena? */
+@10221 /* Have you ever considered a career of chaos and carnage in my arena? */
 DO ~SetGlobal("ZDBAEKorgan1","GLOBAL",1)~
-== BKORGAN @10132 /* Blood an' gold in equal measure, eh? Aye, I might be interested. What's yer offer, drow? */
-== ZDBAEB @10133 /* Besides earning fame and fervent applause? Perhaps...ah! Five-hundred gold coins! */
-== BKORGAN @10134 /* Five hundred? Bah! Tavern brawls pay better. Ye couldnae afford me. */
-== ZDBAEB @10135 /* Not yet, my cocksure companion, but fortunes are fickle. Tomorrow's treasure may well tip the scales! */
+== BKORGAN @10222 /* Blood an' gold in equal measure, eh? Aye, I might be interested. What's yer offer, drow? */
+== ZDBAEB @10223 /* Besides earning fame and fervent applause? Perhaps...ah! Five-hundred gold coins! */
+== BKORGAN @10224 /* Five hundred? Bah! Tavern brawls pay better. Ye couldnae afford me. */
+== ZDBAEB @10225 /* Not yet, my cocksure companion, but fortunes are fickle. Tomorrow's treasure may well tip the scales! */
 EXIT
 
 // Mazzy 1
@@ -287,12 +287,12 @@ IF ~InParty("ZDBAE")
     !StateCheck("ZDBAE", CD_STATE_NOTVALID)
     Global("ZDBAEMazzy1","GLOBAL",0)~
 THEN ZDBAEB ZDBAEMazzy1
-@10136 /* Ah! A halfling. For a moment I mistook you for a pale Svirfneblin with a stunted skull. */
+@10226 /* Ah! A halfling. For a moment I mistook you for a pale Svirfneblin with a stunted skull. */
 DO ~SetGlobal("ZDBAEMazzy1","GLOBAL",1)~
-== BMAZZY @10137 /* I do not take kindly to being mocked, Baeloth. */
-== ZDBAEB @10138 /* Mockery? Never! I'm merely marveling at our uncommon companionship. <CHARNAME> keeps curious company. */
-== BMAZZY @10139 /* You mistake necessity for friendship. We travel together only by <CHARNAME>'s choice. */
-== ZDBAEB @10140 /* Then lets call ourselves partners in peril, even if not in principle. */
+== BMAZZY @10227 /* I do not take kindly to being mocked, Baeloth. */
+== ZDBAEB @10228 /* Mockery? Never! I'm merely marveling at our uncommon companionship. <CHARNAME> keeps curious company. */
+== BMAZZY @10229 /* You mistake necessity for friendship. We travel together only by <CHARNAME>'s choice. */
+== ZDBAEB @10230 /* Then lets call ourselves partners in peril, even if not in principle. */
 EXIT
 
 // Minsc 1
@@ -510,8 +510,8 @@ IF ~InParty("ZDBAE")
 THEN BKORGAN ZDBAEKorgan2
 @10177 /* I've a thirst fer carnage ye ken? Yer stories drown me in feel'n the sweet rage 'til the next bout. */
 DO ~SetGlobal("ZDBAEKorgan2","GLOBAL",1)~
-== ZDBAEB @10142 /* No more gratis gore, my grim friend. Last time you claimed I couldn't afford you. Now, it seems, you cannot afford me. */
-== ZDBAEB @10143 /* Still, should you reconsider my offer, I shall spin more stories for you. Or, better yet, you can write them yourself upon the arena's sands. */
+== ZDBAEB @10231 /* No more gratis gore, my grim friend. Last time you claimed I couldn't afford you. Now, it seems, you cannot afford me. */
+== ZDBAEB @10232 /* Still, should you reconsider my offer, I shall spin more stories for you. Or, better yet, you can write them yourself upon the arena's sands. */
 == BKORGAN @10178 /* A devil's bargain, Baeloth. Nae be me quick answer, but you can glitter it wit' gold fer 'nother try. */
 EXIT
 

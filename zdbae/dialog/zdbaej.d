@@ -224,19 +224,19 @@ END
 
 // Battling Irenicus in the Hells
 I_C_T HELLJON 7 ZDBAEHELL2
-== ZDBAEJ IF ~InParty("ZDBAE") !StateCheck("ZDBAE",CD_STATE_NOTVALID) InMyArea("ZDBAE")~ THEN ~Fight or flee, either way you fall!~ 
+== ZDBAEJ IF ~InParty("ZDBAE") !StateCheck("ZDBAE",CD_STATE_NOTVALID) InMyArea("ZDBAE")~ THEN ~Fight or flee, either way you fall!~
 END
 
 I_C_T HELLJON 8 ZDBAEHELL2
-== ZDBAEJ IF ~InParty("ZDBAE") !StateCheck("ZDBAE",CD_STATE_NOTVALID) InMyArea("ZDBAE")~ THEN ~Fight or flee, either way you fall!~ 
+== ZDBAEJ IF ~InParty("ZDBAE") !StateCheck("ZDBAE",CD_STATE_NOTVALID) InMyArea("ZDBAE")~ THEN ~Fight or flee, either way you fall!~
 END
 
 I_C_T HELLJON 9 ZDBAEHELL2
-== ZDBAEJ IF ~InParty("ZDBAE") !StateCheck("ZDBAE",CD_STATE_NOTVALID) InMyArea("ZDBAE")~ THEN ~Fight or flee, either way you fall!~ 
+== ZDBAEJ IF ~InParty("ZDBAE") !StateCheck("ZDBAE",CD_STATE_NOTVALID) InMyArea("ZDBAE")~ THEN ~Fight or flee, either way you fall!~
 END
 
 I_C_T HELLJON 10 ZDBAEHELL2
-== ZDBAEJ IF ~InParty("ZDBAE") !StateCheck("ZDBAE",CD_STATE_NOTVALID) InMyArea("ZDBAE")~ THEN ~Fight or flee, either way you fall!~ 
+== ZDBAEJ IF ~InParty("ZDBAE") !StateCheck("ZDBAE",CD_STATE_NOTVALID) InMyArea("ZDBAE")~ THEN ~Fight or flee, either way you fall!~
 END
 
 /* friendship arc */

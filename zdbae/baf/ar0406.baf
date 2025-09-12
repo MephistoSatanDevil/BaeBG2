@@ -3,7 +3,7 @@ IF
 THEN
 RESPONSE #100
   SetGlobal("ZDBAEExists","GLOBAL",1)
-  CreateCreature("ZDBAE",[2340.1650],5)
+  CreateCreature("ZDBAE",[2340.1650],NE)
   Continue()
 END
 

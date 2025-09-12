@@ -7,6 +7,7 @@ THEN
     SetGlobal("ZDBAE1_CUTSCENE_BREAKABLE","GLOBAL",1)
     SetCutSceneBreakable(TRUE)
     // NOBLE 1
+	ForceSpell("ZDBAE",FLASHY_4)
     DisplayStringPoint([2453.1575],@101) /* ~A drow? Here?~ */
     Wait(1)
     DisplayStringHead("Announcer",@102) /* ~WHAT?! Security, Security!~ */
@@ -32,7 +33,7 @@ THEN
     Wait(2)
     DisplayStringHead("Frankie",@104) /* ~Kill the drow!~ */
     Wait(2)
-    DisplayStringHead("ZDBAE",@105) /* ~Good people I uh... Lets be reasonable about this!~ */
+    DisplayStringHead("ZDBAE",@105) /* ~Good, uh, people. Surely we can resolve this with wit and not...whatever this is?~ */
     Wait(2)
     SetCutSceneBreakable(FALSE)
     ActionOverride("zdfranki", DestroySelf())

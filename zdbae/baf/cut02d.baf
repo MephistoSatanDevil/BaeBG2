@@ -22,5 +22,5 @@ THEN
   AttackOneRound("Gladiator")  // Gladiator
   Kill("Gladiator")  // Gladiator
   Wait(1)
-  StartCutScene("zdintro")  
+  StartCutScene("zdintro")
 END

@@ -125,8 +125,8 @@ CHAIN
 IF ~InParty("ZDBAE")
     See("ZDBAE")
     Gender("EDWIN",MALE)
-	InParty("EDWIN")
-	See("EDWIN")
+    InParty("EDWIN")
+    See("EDWIN")
     !StateCheck("EDWIN", CD_STATE_NOTVALID)
     !StateCheck("ZDBAE", CD_STATE_NOTVALID)
     Global("ZDBAEEdwin1","GLOBAL",0)~

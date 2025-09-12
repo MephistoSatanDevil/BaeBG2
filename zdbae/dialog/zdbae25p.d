@@ -2,7 +2,7 @@ BEGIN ZDBAE25P
 
 // Kickout Dialogue
 IF ~Global("ZDBAE25KickedOut","GLOBAL",0)~ THEN BEGIN ZDBAEJ1
-  SAY ~No! NO! NO, NO, NO! Don't LEAVE me here, you moronic miscreant! Don't let me die at the hands of pale-skinned barbarians!~ [ZDBAE52] 
+  SAY ~No! NO! NO, NO, NO! Don't LEAVE me here, you moronic miscreant! Don't let me die at the hands of pale-skinned barbarians!~ [ZDBAE52]
   IF ~~ THEN REPLY ~Very well, your whining worked. You may remain.~  DO ~JoinParty()~ EXIT
   IF ~~ THEN REPLY ~Wait here. I may call upon you later.~ DO ~SetGlobal("ZDBAE25KickedOut","GLOBAL",1)~ EXIT
 END

@@ -8,7 +8,7 @@ IF ~InParty("ZDBAE")
     See("Sarevok")
     !StateCheck("Sarevok",CD_STATE_NOTVALID)
     !StateCheck("ZDBAE",CD_STATE_NOTVALID)
-	Alignment("SAREVOK",CHAOTIC_EVIL)
+    Alignment("SAREVOK",CHAOTIC_EVIL)
     Global("ZDBAE25BSARV1","GLOBAL",0)~
 THEN BSAREV25 ZDBAE25BSARV1
 ~Drow, beneath your theatrics, I sense the same thirst that drives me.~
@@ -27,7 +27,7 @@ IF ~InParty("ZDBAE")
     See("Sarevok")
     !StateCheck("Sarevok",CD_STATE_NOTVALID)
     !StateCheck("ZDBAE",CD_STATE_NOTVALID)
-	Alignment("SAREVOK",CHAOTIC_GOOD)
+    Alignment("SAREVOK",CHAOTIC_GOOD)
     Global("ZDBAE25BSARV1","GLOBAL",0)~
 THEN BSAREV25 ZDBAE25BSARV1
 ~I look at you, Baeloth, and I see the shadow of my former self.~
@@ -45,7 +45,7 @@ IF ~InParty("ZDBAE")
     InParty("Sarevok")
     See("Sarevok")
     !StateCheck("Sarevok",CD_STATE_NOTVALID)
-    !StateCheck("ZDBAE",CD_STATE_NOTVALID)	
+    !StateCheck("ZDBAE",CD_STATE_NOTVALID)
     Global("ZDBAE25BSARV2","GLOBAL",0)~
 THEN ZDBAE25B ZDBAE25BSARV2
 ~Tell me something. How did you plot and outplay the politics of Baldur's Gate, proclaim yourself Grand Duke, and provoke a war with Amn?~

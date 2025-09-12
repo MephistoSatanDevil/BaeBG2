@@ -1,8 +1,3 @@
-// LCA compatibility
-ACTION_IF FILE_EXISTS_IN_GAME ~xacorwin.cre~ AND FILE_EXISTS_IN_GAME ~xacaelar.cre~
-THEN BEGIN
-  PRINT ~Adding compatibility for LCA~
-  COMPILE ~%MOD_FOLDER%/dialogue/crossmod/zdlca.d~
-END
+// Pai'Na compatibility
 
 // M'Khiin compatibility

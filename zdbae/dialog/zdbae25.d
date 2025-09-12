@@ -4,8 +4,8 @@ BEGIN ZDBAE25
 IF ~Global("ZDBAE25Summoned","GLOBAL",1)~ ZDBAE25_1
     SAY ~Ah! The swirling shadows and acrid airs of...well, wherever this is. <CHARNAME>, pray tell, have I stumbled into some plane of pandemonium?~
     ++ ~You're not too far off the mark. This is my pocket plane, Baeloth, and I need your assistance.~ DO ~SetGlobal("ZDBAE25Summoned","GLOBAL",2)~ + ZDBAE25_2
-	++ ~Fall into line, drow. I'll explain on the way.~ DO ~SetGlobal("ZDBAE25Summoned","GLOBAL",2)~ + ZDBAE25_3
-	++ ~Stay here. I'll call on your talents later.~ DO ~SetGlobal("ZDBAE25Summoned","GLOBAL",2)~ + ZDBAE25_3_1
+    ++ ~Fall into line, drow. I'll explain on the way.~ DO ~SetGlobal("ZDBAE25Summoned","GLOBAL",2)~ + ZDBAE25_3
+    ++ ~Stay here. I'll call on your talents later.~ DO ~SetGlobal("ZDBAE25Summoned","GLOBAL",2)~ + ZDBAE25_3_1
 END
 
 IF ~~ ZDBAE25_2
@@ -26,7 +26,7 @@ END
 
 IF ~~ ZDBAE25_3_1
     SAY ~You dare to confine me to this lackluster lair? Oh, very well, but know I am vexed about this.~
-	IF ~~ DO ~MoveToPointNoInterrupt([1517.1517]) Face(1)~ EXIT
+    IF ~~ DO ~MoveToPointNoInterrupt([1517.1517]) Face(1)~ EXIT
 END
 
 // Join Dialogue

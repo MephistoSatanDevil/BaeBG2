@@ -7,7 +7,7 @@ THEN
     SetGlobal("ZDBAE1_CUTSCENE_BREAKABLE","GLOBAL",1)
     SetCutSceneBreakable(TRUE)
     // NOBLE 1
-	ForceSpell("ZDBAE",FLASHY_4)
+    ForceSpell("ZDBAE",FLASHY_4)
     DisplayStringPoint([2453.1575],@101) /* ~A drow? Here?~ */
     Wait(1)
     DisplayStringHead("Announcer",@102) /* ~WHAT?! Security, Security!~ */

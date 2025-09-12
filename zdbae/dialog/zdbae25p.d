@@ -1,18 +1,20 @@
 BEGIN ZDBAE25P
 
-IF ~Global("ZDBAE25KickedOut","GLOBAL",1)~ THEN BEGIN 0
-  SAY ~I hope you're satisfied. Look at my clothing! Caked-on mud everywhere! Do you have any idea how many hairy, four-legged BEASTS I had to avoid while making my way here? Woofs, were they? Wharves? I don't know.~
-  IF ~~ THEN REPLY ~Hello to you too, Baeloth. I have need of you. Will you join me?~ GOTO 1
-  IF ~~ THEN REPLY ~Well, keep it up. You're doing a good job so far.~ GOTO 2
+// Kickout Dialogue
+IF ~Global("ZDBAE25KickedOut","GLOBAL",0)~ THEN BEGIN ZDBAEJ1
+  SAY ~No! NO! NO, NO, NO! Don't LEAVE me here, you moronic miscreant! Don't let me die at the hands of pale-skinned barbarians!~ [ZDBAE52] 
+  IF ~~ THEN REPLY ~Very well, your whining worked. You may remain.~  DO ~JoinParty()~ EXIT
+  IF ~~ THEN REPLY ~Wait here. I may call upon you later.~ DO ~SetGlobal("ZDBAE25KickedOut","GLOBAL",1)~ EXIT
 END
 
-IF ~~ THEN BEGIN 1
-  SAY ~YES! At last, some protection! Protection for YOU, that is. I will join you. So that you can feel safe.~
-  IF ~~ THEN DO ~SetGlobal("ZDBAE25KickedOut","GLOBAL",0) JoinParty()~ EXIT
+// Rejoin Dialogue
+IF ~Global("ZDBAE25KickedOut","GLOBAL",1)~ THEN BEGIN ZDBAE25_5
+    SAY ~Have you finally come to your senses? My powers are woefully wasted in this dreary domain.~
+    IF ~~ THEN REPLY ~I have need of your skills, Baeloth, join me.~ DO ~SetGlobal("ZDBAE25KickedOut","GLOBAL",0) JoinParty()~ EXIT
+    IF ~~ THEN REPLY ~Wait a little longer.~ GOTO ZDBAE25_6
 END
 
-IF ~~ THEN BEGIN 2
-  SAY ~No! NO! NO, NO, NO! Don't LEAVE me here, you moronic miscreant! Don't let me die at the hands of pale-skinned barbarians!~
-  IF ~~ THEN REPLY ~Wait here.~ DO ~SetGlobal("ZDBAE25KickedOut","GLOBAL",1)~ EXIT
-  IF ~~ THEN REPLY ~On second thought, sure. Your whining convinced me.~ DO ~SetGlobal("ZDBAE25KickedOut","GLOBAL",0) JoinParty()~ EXIT
+IF ~~ ZDBAE25_6
+    SAY ~I shall endure this tedious trifle for now - though my patience is limited.~
+    IF ~~ EXIT
 END

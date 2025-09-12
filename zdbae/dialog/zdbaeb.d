@@ -124,7 +124,9 @@ EXIT
 CHAIN
 IF ~InParty("ZDBAE")
     See("ZDBAE")
-    Gender("Edwin",MALE)
+    Gender("EDWIN",MALE)
+	InParty("EDWIN")
+	See("EDWIN")
     !StateCheck("EDWIN", CD_STATE_NOTVALID)
     !StateCheck("ZDBAE", CD_STATE_NOTVALID)
     Global("ZDBAEEdwin1","GLOBAL",0)~
@@ -496,6 +498,25 @@ DO ~SetGlobal("ZDBAEEdwin2","GLOBAL",1)~
 == ZDBAEB ~I need no brittle books nor banal memorization to bend the weave. *My* magic is instinct itself!~
 == BEDWIN ~What you call instinct is mere theatrics. Impressive to fools alone.~
 == ZDBAEB ~Such splendid spluttering from bargain-bin Baeloth himself.~
+EXIT
+
+// Jan 2
+CHAIN
+IF ~InParty("ZDBAE")
+    See("ZDBAE")
+    InParty("JAN")
+    See("JAN")
+    !StateCheck("JAN",CD_STATE_NOTVALID)
+    !StateCheck("ZDBAE",CD_STATE_NOTVALID)
+    Global("ZDBAE25BJAN1","GLOBAL",0)~
+THEN ZDBAE25B ZDBAE25BJAN1
+~Jan, your stories are dreadfully dull. Where's the flourish, the thrill, the flair?~
+DO ~SetGlobal("ZDBAE25BJAN1","GLOBAL",1)~
+== BJAN25 ~I require no embellishment; every tale I tell is true. Even the one of Olabthe the Treant and his radiant radishes.~
+== ZDBAE25B ~Radiant radishes? Predictable! I foresee every twist before you even say. Prepare yourself for my precognition!~
+== BJAN25 ~But you see the radishes were so bright it could easily blind you. It was a fine drow repellent and... and... hmmmm.~
+== BJAN25 ~Drat.~
+== ZDBAE25B ~Bedeviled by my beguiling words. Hah! The lead is mine in our little game, gnome.~
 EXIT
 
 // Korgan 2

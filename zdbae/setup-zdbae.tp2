@@ -10,6 +10,10 @@ LANGUAGE ~English~
          ~english~
          ~zdbae/tra/english/setup.tra~
          ~zdbae/tra/english/journal.tra~
+LANGUAGE ~Simplified Chinese~
+         ~schinese~
+         ~zdbae/tra/schinese/setup.tra~
+         ~zdbae/tra/schinese/journal.tra~
 
 // Main Component
 BEGIN ~Baeloth BG2~ DESIGNATED 0 LABEL ~zdbae~

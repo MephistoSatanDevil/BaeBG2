@@ -1,0 +1,77 @@
+@0    = ~The bustle of the bazaar! Trinkets, treasures, and tantalizing wares aplenty. My boots, alas, are worn thin from all our wandering. Perhaps you should spend a coin or two and preserve your most precious pal?~
+@1    = ~All of that postering just to tell me your boots are falling apart!~
+@2    = ~Then I suppose we could buy you a new pair.~
+@3    = ~You're here to sling spells, Baeloth, not bore me with your endless chatter.~
+@4    = ~Precisely! What greater tragedy is there than Baeloth Barrityl being undone by shabby soles?~
+@5    = ~Ah, the Luxurious Lizardskin Leapers! A splendid symphony of supple skin and sublime style. With these I shall sashay forward and even the stars shall seem subdued in comparison!~
+@6    = ~Simple, sturdy boots. Hmm, they will suffice, I suppose. Slightly too stodgy for my sophisticated sensibilities. Suitable for soldiers, perhaps, but scarcely for a sorcerer of my skill. How utterly uninspiring.~
+@7    = ~Splendidly styled but too subtle for my taste. I dazzle, I delight. I refuse to be swallowed by the shadows like some sullen serf.~
+@8    = ~The Black Pits he ran with great flair,
+A sorcerer beyond compare.
+But hear him ramble on,
+From dusk well past dawn,
+And you'll wish he'd run out of air.~
+@9    = ~Oho! Two can play this game!~
+@10   = ~Confident in his gab,
+A gnome tries to deliver a jab.
+But one jest too far,
+And I'll make you the star,
+Of *my* show. Now run or I'll stab...~
+@11   = ~Let's make ourselves scarce, shall we? Before their righteous rage redirects towards us.~
+@12   = ~Must I repeat myself, <CHARNAME>? No, no, that would be dreary indeed.~
+@13   = ~Look! Over there, I spot another one!~
+@14   = ~Blast and bother.~
+@15   = ~This is getting out of hand! Now there are two of them!~
+@16   = ~Then the invasion is truly upon us.~
+@17   = ~What a bother! ...But better her than me.~
+@18   = ~Listen to these Cowled Ones waving about their worthless warrants. Licenses for magic...how painfully pedestrian of them. I, Baeloth Barrityl, am beyond their banal barriers.~
+@19   = ~Oohoohoohoo! This should be good!~
+@20   = ~And I, I say listen to me Baeloth the Bright! Baeloth the Bedazzling!  Baeloth the ... Well in any event, don't listen to this blind bat, however brilliant his bids at bewilderment are. */ /* And I, I say listen to me Baeloth the Bright! Baeloth the Bedazzling!  Baeloth the ... Well in any event, don't listen to this blind bat, however brilliant his bids at bewilderment are~
+@21   = ~Follow him to mediocrity or follow me to magnificence. Your choice, of course.~
+@22   = ~The Weave twists and twirls around her. Such chaotic patterns require a cunning conductor. But, surely, that is why you keep *me* close.~
+@23   = ~Nay <CHARNAME>, NAY! You needst NOT do so. Mayhap thy bounteous booty might be better spent in more delightfully devious and devilish pursuits? Hmm? Perhaps upon this daring and dashing Drow, whose charm is as captivating as the celestial canvas itself?~
+@24   = ~Errr, I don't think I have anything more for the gentleman.~
+@25   = ~Bah! Am I to be belittled by balding bloated broker? What bilious buffoonery! Blast! BOO! A blight upon you sir!~
+@26   = ~A banal betrayal by any drow standard. Tiresome and tedious to be sure.~
+@27   = ~A fine flock of fodder you've freed. Shall we hurl them headlong into havoc then?~
+@28   = ~Bravo! Such a savage spectacle! I call for an encore!~
+@29   = ~Lil waela lueth waela ragar brorna lueth wund nind, kyorlin elghinn! Sarn! Usstan uil Baeloth!~
+@30   = ~Of... of course, malla Baeloth. I am at your service in all matters.~
+@31   = ~Wait, wait! Carlig, he bears no house insignia that I know. Look at his companions! He is an outcast!~
+@32   = ~Wait, wait! Carlig, he bears no house insignia that I know. Look at his companion! He is an outcast!~
+@33   = ~It is not often that those not directly associated with a House pass this way.~
+@34   = ~Surprising that you travel with the darkness of a drow. I mean no disrespect, but it is surprising.~
+@35   = ~You svirfneblin continue to state the spectacularly self-evident! Are you dazzled and delighted by my presence? Or threatened instead?~
+@36   = ~No offense, malla drow, but I see you do not wear the symbols of any House that I know. You would fare no better in there, especially with your current companions.~
+@37   = ~You underestimate my cunning, gnome, and my contacts. But tell us of your safe alternative.~
+@38   = ~We are dealing with the infamous intermediary then? How tedious.~
+@39   = ~Astutely observed. This pitiful place is beneath me...though, admittedly, most places are.~
+@40   = ~Smashing svirfneblin sounds sublime! To the slaughter!~
+@41   = ~Baeloth Barrityl, the drow sorcerer, an unlikely ally who has flung fire and unleashed his fury upon your foes. But is he truly prepared for the fight ahead?~
+@42   = ~Baeloth, we have become friends, so you don't have to follow me any further. This isn't your fight.~
+@43   = ~There's a chance we won't survive. Turn tail and flee if you're too cowardly to see this battle through.~
+@44   = ~We're nearing the end. I have to know that you're ready. There's no turning back.~
+@45   = ~I was preparing a particularly scorching fireball for these simpering elves. How they ever forced my kin beneath the ground is beyond comprehension.~
+@46   = ~But yes, yes, I hear you. I have resolved to remain. The spotlight beckons and I shan't miss my cue!~
+@47   = ~Obviously, this was going to happen. Our triumph was assured with my superior sorcerous skills. ...Ah! What is this strange, nay sinister, sensation?~
+@48   = ~The Hells, is it? What a delightful debut for the next deadly duel!~
+@49   = ~Fight or flee, either way you fall!~
+@50   = ~The Copper Coronet, ah, such squandered potential. An arena of note but without a noteworthy patron. The roar of the ravenous crowd, the screams of the soon-to-be-slain, my reign would have been renowned!~
+@51   = ~Alas, my triumphant return to running fighting pits came to an abrupt close. But fortune favors the flexible. Plans may perish, yet possibilities persist! Tell me, <CHARNAME>, what mission moves our party onward?~
+@52   = ~Imoen was kidnapped by the Cowled Wizards, we're trying to get her back.~
+@53   = ~Imoen was kidnapped by the Cowled Wizards, I'm trying to get her back.~
+@54   = ~I was captured and tortured by a mage called Irenicus. I intend to find him and make him pay for his insolence.~
+@55   = ~I was captured and tortured by a mage named Irenicus. I intend to find him and make him pay for his insolence.~
+@56   = ~Just fall in line, Baeloth, I've no intention of explaining my plans.~
+@57   = ~Those conniving Cowled Ones? I applaud your audacity in opposing them. Any cause that confounds them is one I shall champion. Imagine trying to impose limits on my magic!~
+@58   = ~Oh, right, Imoen. Yes, yes, we’ll save her too, I suppose.~
+@59   = ~Captured yet again? A dreadful habit and one you should cease. But this Irenicus intrigues me. He's powerful and presumptuous enough to seize you? You'll need formidable forces, and of course my magnificent magic, if you wish to see him suffer.~
+@60   = ~To stoke your vengeance, Irenicus must be a mage of means and malice indeed. Fear not, with me in your retinue, retribution is only a matter of time.~
+@61   = ~Then consider this conversation adjourned.~
+@62   = ~I chose wisely when I cast my lot in with you. Do not fret, I shall think of something suitable with which you can repay me. The pleasure of my company does have its price.~
+@63   = ~Baeloth, you walk freely only due to my protection.~
+@64   = ~Baeloth, you walk freely only due to our protection.~
+@65   = ~From you, I would expect nothing less.~
+@66   = ~Keep making demands and I’ll stuff you into the Copper Coronet’s cages instead.~
+@67   = ~I assume your silence is a luxury I cannot afford then?~
+@68   = ~Now, onward! I tire of talking and thirst for other theatrics!~
